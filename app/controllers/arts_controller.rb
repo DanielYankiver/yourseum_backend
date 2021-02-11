@@ -10,4 +10,9 @@ class ArtsController < ApplicationController
         render json: @art 
     end
 
+    def destroy
+        @art = Art.find(params[:id]).destroy 
+        render json: {}
+    end
+
 end

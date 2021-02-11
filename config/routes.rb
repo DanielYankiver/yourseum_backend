@@ -8,6 +8,7 @@ Rails.application.routes.draw do
 
   get '/arts', to: 'arts#index'
   get '/arts/:id', to: 'arts#show'
+  delete '/arts/:id', to: 'arts#destroy'
 
   get '/favorites', to: 'favorites#index'
   get '/favorites/:id', to: 'favorites#show'
