@@ -13,6 +13,6 @@ Rails.application.routes.draw do
   get '/favorites/:id', to: 'favorites#show'
   post '/favorites', to: 'favorites#create'
   patch 'favorites/:id', to: 'favorites#update'
-  #test
+
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
