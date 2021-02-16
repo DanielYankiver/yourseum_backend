@@ -1,5 +1,7 @@
 User.create(username: "daniel", password: "abc123")
 
+# Favorite.create(user_id: 1, art_id: 1, starred: true)
+
 # res = RestClient.get('https://api.artic.edu/api/v1/artworks?fields=id,title,artist_title,date_end,image_id')
 # json = res.body
 # artwork_hash = JSON.parse(json)

@@ -11,7 +11,7 @@ class FavoritesController < ApplicationController
     end
 
     def create
-        @favorite = Favorite.create(art_id: params[:art_id], user_id: @current_user.id)
+        @favorite = Favorite.create(art_id: params[:art_id], user_id: 1, starred: true)
         render json: @favorite
     end
 
@@ -21,4 +21,8 @@ class FavoritesController < ApplicationController
         render json: @favorite
     end
 
+    def destroy 
+        @favorite = Favorite.find(params[:id]).destroy 
+        render json: {}
+    end
 end
