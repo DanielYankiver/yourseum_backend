@@ -16,6 +16,13 @@ User.create(username: "daniel", password: "abc123")
 # end
 
 Art.create(
+    title: "PIETTA II", 
+    artist: "Jaime David", 
+    year: 2020, 
+    image: "https://www.dropbox.com/s/qv3227o4xv8n562/finalpieta.jpg?dl=0"
+)
+
+Art.create(
     title: "Mona Lisa", 
     artist: "Leonardo da Vinci", 
     year: 1503, 
