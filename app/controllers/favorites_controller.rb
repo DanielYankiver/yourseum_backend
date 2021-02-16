@@ -12,7 +12,12 @@ class FavoritesController < ApplicationController
 
     def create
         @favorite = Favorite.create(art_id: params[:art_id], user_id: 1, starred: true)
-        render json: @favorite
+
+        if @favorite.valid? 
+            render json: @favorite
+        else 
+            render json: {errors: @favorite.errors.full_messages}
+        end
     end
 
     def update
