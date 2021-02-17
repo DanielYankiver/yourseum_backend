@@ -5,7 +5,7 @@ class CreateArts < ActiveRecord::Migration[6.0]
       t.string :artist
       t.string :image
       t.integer :year
-
+      t.string :description
       t.timestamps
     end
   end
