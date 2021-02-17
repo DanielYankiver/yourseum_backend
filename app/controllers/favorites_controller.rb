@@ -11,7 +11,7 @@ class FavoritesController < ApplicationController
     end
 
     def create
-        @favorite = Favorite.create(art_id: params[:art_id], user_id: 1, starred: true)
+        @favorite = Favorite.create(art_id: params[:art_id], user_id: params[:user_id], starred: true)
 
         if @favorite.valid? 
             render json: @favorite

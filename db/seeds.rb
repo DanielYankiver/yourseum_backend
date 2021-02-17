@@ -24,11 +24,11 @@ Art.create(
 )
 
 Art.create(
-    title: "Mona Lisa", 
-    artist: "Leonardo da Vinci", 
-    year: 1503, 
-    image: "https://puzzlemania-154aa.kxcdn.com/products/m-puzzle-mona-lisa-1000-dilku-51691.jpg",
-    description: 'The Mona Lisa is a half-length portrait painting by Italian artist Leonardo da Vinci. Considered an archetypal masterpiece of the Italian Renaissance, it has been described as "the best known, the most visited, the most written about, the most sung about, the most parodied work of art in the world".'
+    title: "The Scream", 
+    artist: "Edvard Munch", 
+    year: 1893, 
+    image: "https://www.edvardmunch.org/images/paintings/the-scream.jpg",
+    description: 'The Scream is the popular name given to a composition created by Norwegian Expressionist artist Edvard Munch in 1893. The original German title given by Munch to his work was Der Schrei der Natur, and the Norwegian title is Skrik.'
 )
 
 Art.create(
