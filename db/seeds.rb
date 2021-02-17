@@ -20,7 +20,7 @@ Art.create(
     artist: "Jaime David", 
     year: 2020, 
     image: "https://i.ibb.co/wwcJnV1/finalpieta.jpg",
-    description: "One of the most iconoc masterpieces of the modern age."
+    description: "One of the most iconic masterpieces of the modern age."
 )
 
 Art.create(
